@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
