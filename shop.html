@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Mushroom Supplies</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Our Shop</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <h3>Monotub</h3>
+            <img src="assets/images/monotub.jpg" alt="Monotub">
+            <p>Price: $50</p>
+            <button onclick="addToCart('Monotub', 50)">Add to Cart</button>
+        </section>
+        <section class="product">
+            <h3>Monster Monsoon Ecosphere Spawn & Casing Package 3.0</h3>
+            <img src="assets/images/monster-monsoon.jpg" alt="Monster Monsoon Ecosphere">
+            <p>Price: $625.00</p>
+            <p>The ultimate package with climate control, casing tools, and spawn systems.</p>
+            <button onclick="addToCart('Monster Monsoon Ecosphere', 625)">Add to Cart</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mushroom Supplies</p>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
